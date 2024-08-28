@@ -1,17 +1,17 @@
 package animaiObj;
 
 public class Animais {
-	String raca,sexo,nome,sons,dormir,correr,caminhar;
+	String especie,sexo,raca,sons,dormir,correr,caminhar;
 	int idade;
 	
-	public String getNome() {
-		return nome;
-	}public void setNome(String nome) {
-		this.nome = nome;
-	}public String getRaca() {
+	public String getRaca() {
 		return raca;
 	}public void setRaca(String raca) {
 		this.raca = raca;
+	}public String getEspecie() {
+		return especie;
+	}public void setEspecie(String especie ) {
+		this.especie  = especie ;
 	}public String getSexo() {
 		return sexo;
 	}public void setSexo(String sexo) {
